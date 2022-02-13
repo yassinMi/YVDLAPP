@@ -1,0 +1,1 @@
+cmd /c "copy E:\mi-rn\yvdlApp\android\app\build\outputs\apk\debug\app-debug.apk F:\try3\yvdlPhone\dist\app\mi_yvdl.apk && pause"

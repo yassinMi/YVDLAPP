@@ -1,0 +1,31 @@
+{
+ "wrong": "heyyy",
+ "version": "1.1.0",
+ "npm_source": "F:\\try3\\yvdlPhone\\server\\node_modules",
+ "npm_destination": "E:\\mi-rn\\yvdlApp\\node_modules",
+ "destination": "  ",
+ "source": "  ",
+ "preview_folders": [
+  "E:\\this time lets make it happen\\portfolio 1.0\\dist\\img\\material icons",
+  "E:\\this time lets make it happen\\portfolio 1.0\\dist\\img\\material-icons-lib-web\\src",
+  "E:\\this time lets make it happen\\portfolio 1.0\\dist\\img",
+  "E:\\this time lets make it happen\\portfolio 1.0\\dist\\img\\svg",
+  "E:\\this time lets make it happen\\portfolio 1.0\\dist\\img\\svg\\nice ones"
+ ],
+
+ "expoSyncConfig" :{
+    "expo_project_folder" :"E:\\TOOLS\\mi-expo-backup\\mi-expo" ,
+    "react_native_project" : "E:\\mi-rn\\yvdlApp" ,
+    "third_party_packages" : [ "react-native-fs" , "react-native-ffmpeg","react-native-html-parser",
+         "react-native-filenamify", "react-native-document-picker","react-native-share","rn-fetch-blob","filenamify/filenamify" ],
+    
+    
+    
+    "files" : ["PlayGround.tsx", "GeneralUtils.ts", "rev02types.ts", "MiMenuItem.tsx","MiMenuGroupHeader.tsx","MiPrettyChip.tsx", "ghost-yvdl.ts"  ,"FBHDUtils.ts",
+     "App.js", "ButtonPretty.tsx",
+        "DiskInfo.tsx","DownloadingProgressInfo.tsx","Getter.tsx","Header.tsx",
+        "InputPanel.tsx","MainPanel.tsx","MiFbParser.ts","Output.tsx","ProgressBar.tsx",
+        "SettingsPanel.tsx","SvgMi.tsx","TaskCard.tsx","YTabs.tsx","CheckBox10Native.tsx","Credentials.tsx",
+        "FfmpegOptionsPickerNative.tsx","MiExpander.tsx" ,"MiSwipeable.tsx","theme.tsx","FfmpegNewTask.tsx" ]
+ }
+}

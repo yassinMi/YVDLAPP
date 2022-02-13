@@ -1,0 +1,49 @@
+{
+  "name": "yvdlApp",
+  "version": "0.2.3",
+  "description": "fb/yt/ig video downloader for android",
+  "author": "mi",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android --no-jetifier",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "ybundle": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res",
+    "ybuild": "react-native run-android --no-jetifier",
+    "ytest": "node ytest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/cameraroll": "^4.0.1",
+    "@types/react-native": "^0.63.25",
+    "filenamify": "^4.2.0",
+    "htmlparser2": "^3.10.1",
+    "react": "16.13.1",
+    "react-native": "0.63.4",
+    "react-native-document-picker": "^4.2.0",
+    "react-native-ffmpeg": "^0.5.1",
+    "react-native-filenamify": "^4.1.0",
+    "react-native-fs": "^2.16.6",
+    "react-native-get-intent-mi": "file:../react-native-get-intent-mi/react-native-get-intent-mi-1.0.5.tgz",
+    "react-native-html-parser": "^0.1.0",
+    "react-native-path": "0.0.5",
+    "react-native-share": "^5.1.0",
+    "react-native-splash-screen": "^3.3.0",
+    "react-native-svg": "^12.1.0",
+    "rn-fetch-blob": "^0.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.12.7",
+    "@babel/runtime": "7.12.5",
+    "@react-native-community/eslint-config": "1.1.0",
+    "babel-jest": "25.5.1",
+    "eslint": "6.8.0",
+    "jest": "25.5.4",
+    "metro-react-native-babel-preset": "0.59.0",
+    "react-test-renderer": "16.13.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

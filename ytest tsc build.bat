@@ -1,0 +1,1 @@
+cmd /k "title typscript && tsc -t ES5 MiFbParser.ts --watch --sourceMap -d --declarationMap --pretty"
