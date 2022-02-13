@@ -130,6 +130,14 @@ export default class InputPanel extends Component<InputPanelProps,InputPanelStat
 
     }
 
+    /**
+     * works lke handleInitialUrl but fired while the app is running in the background
+     */
+    handleOnRunningSend(){
+      return
+
+    }
+
     componentDidMount(){
 
      /*const url = Linking.getInitialURL().then(url => {

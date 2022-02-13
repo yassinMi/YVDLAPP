@@ -2,6 +2,7 @@
 android/app/build/
 node_modules/
 # my backups stuff
+dev time only (better keep away/
 backup-src/
 backup apk/
 # my weird stuff
