@@ -1,9 +1,16 @@
 # heavy and not needed
 android/app/build/
+android/.gradle/
+node_modules/
+
 # my backups stuff
+dev time only (better keep away/
 backup-src/
 backup apk/
+backups/
+
 # my weird stuff
+dev only/
 ffmpeg task tests/
 intents readme/
 shit/
@@ -12,7 +19,6 @@ readme/
 *.yasscmd
 
 # not needed
-react-native-get-intent-mi-1.0.0.tgz
 assets\Change App Icon in React Native for Android and iOS - About React_files\
 assets\Change App Icon in React Native for Android and iOS - About React.html
 assets\yvdl-mi.zip
