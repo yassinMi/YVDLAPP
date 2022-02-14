@@ -1,3 +1,20 @@
-vdll app 0.2.3
+vdll app by mi 2020-2022
 
-added on 13-feb-2022
+video downloader android app 
+
+v0.2.3-alpha.3
+
+core functionality that is not yet supported in this version:
+
+
+- ig support
+- yt support
+- Open-as command 
+- the video stream codec option has no effect . the codec is always copied
+- the enable-auto fill options doesnt work, currentely there is no non-auto-fill mode 
+- separate downloads doesnt work
+- recieving a send action while the app is running is not supported
+- Thumbnail option has no effect. the thmbnail is always included 
+- Play action for audio tracks
+- saving user session and user settings
+
