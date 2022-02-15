@@ -12,7 +12,7 @@ v0.2.4-alpha.3
 
 (edited from origin) //try3's comment
 (try3 repo did this)
->>>>>>> 3427891769b70c698ecdb6629281cab4728a1da4
+
 app restrctured. builds correctly. apk untested
 
 
