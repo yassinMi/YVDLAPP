@@ -5,9 +5,14 @@ video downloader android app
 v0.2.4-alpha.3
 (added this bracket from a clone in try3 for testing purpose)
 (test2)
+
 (edited from origin)// my conflict comment
 
 (origin did this)
+
+(edited from origin) //try3's comment
+(try3 repo did this)
+>>>>>>> 3427891769b70c698ecdb6629281cab4728a1da4
 app restrctured. builds correctly. apk untested
 
 
