@@ -2,8 +2,8 @@ vdll app by mi 2020-2022
 
 video downloader android app 
 
-v0.2.4-alpha.0 
-not working app as all js/ts/tsx files were restructured. working on the code side..
+v0.2.4-alpha.1
+app restrctured. not tested yet
 
 
 core functionality that is not yet supported in this version:
