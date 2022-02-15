@@ -3,6 +3,7 @@ vdll app by mi 2020-2022
 video downloader android app 
 
 v0.2.4-alpha.3
+(added this bracket from a clone in try3 for testing purpose)
 app restrctured. builds correctly. apk untested
 
 
