@@ -12,7 +12,7 @@ import FfmpegTaskDialog from "./InputPanel/FfmpegNewTask"
 import MainPanel from "./MainPanel/MainPanel"
 import Header from "./Header/Header"
 import DiskInfo from "./MainPanel/DiskInfo"
-import Swipeable, { Swip } from './Common/Swipeable';
+import Swipeable, { Swip } from './Card/Swipeable';
 import SvgMi, { st } from './Common/SvgMi';
 import { Palette } from './Common/theme';
 import { verbo } from "../Services/GeneralUtils"

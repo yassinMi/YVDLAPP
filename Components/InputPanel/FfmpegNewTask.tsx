@@ -435,7 +435,7 @@ export  class  FtipImageInput extends Component<FtipImageinputProps,FtipImageinp
         this.state = {
 
             
-              selected:require("./assets/dummy/task2.jpg")
+              selected:require("../../assets/dummy/task2.jpg")
            
         }
 
