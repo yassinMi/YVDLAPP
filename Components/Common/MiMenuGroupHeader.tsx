@@ -69,6 +69,7 @@ const text_style : StyleProp<TextStyle> = {
 
 type MiMenuGroupHeaderProps = {
     tilte:string,
+    style?:StyleProp<ViewStyle>
    
 }
 

@@ -7,7 +7,7 @@ import { StyleSheet, Text, View, Platform,StatusBar, TextInput, FlatList, Image,
 
 
 export type ProgressBarProps = {
-    key:any,
+   // key:any, 
     progress:{d:number,t:number},
     showPercent?:boolean,
     wraperStyle?:StyleProp<ViewStyle>,
@@ -75,8 +75,9 @@ export default class  ProgressBar extends Component<ProgressBarProps,ProgressBar
         let fillerwidth = 100* this.state.progress.d/this.state.progress.t
        let percent:number|string =Math.ceil( fillerwidth*10) /10
         percent = Number.isNaN(percent)?"0%":percent+"%"
+        //todo if the progressBar style was messed up go back here in the root view  style={{...style_ProgressBarWraper,...this.props.wraperStyle}} i switched from the expand to list 
         return (
-            <View ref={this.wraperref} style={{...style_ProgressBarWraper,...this.props.wraperStyle}} >
+            <View ref={this.wraperref} style={[style_ProgressBarWraper,this.props.wraperStyle]} > 
                {this.props.showPercent&&
                 <Text>
                     {percent} 

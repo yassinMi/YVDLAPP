@@ -10,15 +10,15 @@ import { Animated, StyleSheet, Text, View,ScrollView, Platform,StatusBar, TextIn
 
 
 import DiskInfo from "./DiskInfo"
-import TaskCard from "./TaskCard"
- import Swipeable, { Swip } from './Swipeable';
-import { ButtonPretty } from './ButtonPretty';
-import ProgressBar from './ProgressBar';
+import TaskCard from "../Card/TaskCard"
+ import Swipeable, { Swip } from '../Card/Swipeable';
+import { ButtonPretty } from '../Common/ButtonPretty';
+import ProgressBar from '../Card/ProgressBar';
 import { Colors } from 'react-native/Libraries/NewAppScreen';
 import Svg from 'react-native-svg';
-import SvgMi, { st } from './SvgMi';
-import { YVDL_Task } from './ghost-yvdl';
-import {AppSettings, IOutputLocation, IPreferedNameSource, IPreferedQualty} from './rev02types';
+import SvgMi, { st } from '../Common/SvgMi';
+import { YVDL_Task } from '../../Services/ghost-yvdl';
+import {AppSettings, IOutputLocation, IPreferedNameSource, IPreferedQualty} from '../../Services/rev02types';
 
 
 //

@@ -1,7 +1,7 @@
 
 import React, { Component, createRef, RefObject } from 'react';
 import { Animated, StyleSheet, Text, View, Platform,StatusBar, TextInput, FlatList, Image, Modal, Switch,AsyncStorage, Alert, AlertButton, ProgressBarAndroid, ColorPropType, VirtualizedList, Picker, Dimensions, PermissionsAndroid, StyleProp, ViewStyle, TextStyle } from 'react-native';
-import CheckBox10Native from './CheckBox10Native';
+import CheckBox10Native from '../Common/CheckBox10Native';
 import fsrn from 'react-native-fs'
 
 

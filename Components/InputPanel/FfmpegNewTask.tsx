@@ -2,9 +2,9 @@
 
 import React, { Component, createRef, RefObject } from 'react';
 import { Animated, StyleSheet, Text, View, Platform,StatusBar, TextInput, FlatList, Image, Modal, Switch,AsyncStorage, Alert, AlertButton, ProgressBarAndroid, ColorPropType, VirtualizedList, Picker, Dimensions, PermissionsAndroid, StyleProp, ViewStyle, TextStyle, TouchableHighlight, TouchableOpacity, TouchableWithoutFeedbackComponent, TouchableNativeFeedbackComponent, TouchableHighlightBase, ImageBackground, ImageBackgroundComponent, ImageSourcePropType, Group, ViewPagerAndroid, SliderComponent, Slider } from 'react-native';
-import SvgMi, { st } from './SvgMi';
-import { ButtonPretty } from './ButtonPretty';
-import { verbo } from './ghost-yvdl';
+import SvgMi, { st } from '../Common/SvgMi';
+import { ButtonPretty } from '../Common/ButtonPretty';
+import { verbo } from '../../Services/GeneralUtils';
 import RNShare from 'react-native-share';
 import RNPicker from "react-native-document-picker"
 import fn from 'react-native-fs'

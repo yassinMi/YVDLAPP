@@ -6,7 +6,7 @@ import Svg, { Path, SvgUri, SvgFromUri, SvgAst, SvgFromXml, SvgCssUri,SvgXml } f
 import React, { RefObject, Component } from 'react'
 import {  StyleSheet, Text, View, Platform,StatusBar, TextInput, FlatList, Image, Modal, Switch,AsyncStorage, Alert, AlertButton, StyleProp, ViewStyle, TextStyle, TextStyleAndroid, ImageSourcePropType, ProgressBarAndroid } from 'react-native';
 
-import stor from "./assets/mi_xml_store.json"
+import stor from "../../assets/mi_xml_store.json"
 
 const tryt = {mi1:"'t",mi2:"ezgz"}
 

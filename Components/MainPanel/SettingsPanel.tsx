@@ -5,22 +5,14 @@
 
 import React, { Component, createRef } from 'react';
 import { Animated, StyleSheet, Text, View, ScrollView, Platform,StatusBar, TextInput, FlatList, Image, Modal, Switch,AsyncStorage, Alert, AlertButton, ProgressBarAndroid, ColorPropType, VirtualizedList, Picker, Dimensions, ViewStyle, StyleProp, Clipboard, TextStyle } from 'react-native';
+import { AppSettings } from '../../Services/rev02types';
+import { ButtonPretty } from '../Common/ButtonPretty';
+import MiMenuGroupHeader from '../Common/MiMenuGroupHeader';
+import MiMenuItem from '../Common/MiMenuItem';
+import { st } from '../Common/SvgMi';
+import { Palette } from '../Common/theme';
 
 //
-import DiskInfo from "./DiskInfo"
-import TaskCard from "./TaskCard"
- import Swipeable, { Swip } from './Swipeable';
-import { ButtonPretty } from './ButtonPretty';
-import ProgressBar from './ProgressBar';
-import { Colors } from 'react-native/Libraries/NewAppScreen';
-import Svg from 'react-native-svg';
-import SvgMi, { st } from './SvgMi';
-import { OptionsPanel } from './InputPanel';
-import { Palette } from './theme';
-import MiMenuItem from './MiMenuItem';
-import MiMenuGroupHeader from './MiMenuGroupHeader';
-
-import { IPostInfo , AppSettings} from './rev02types';
 
 
 

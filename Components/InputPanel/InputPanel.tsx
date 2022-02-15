@@ -8,35 +8,22 @@ import { Animated, Easing, StyleSheet, Text, View,TouchableOpacity, Platform,Sta
 import fsrn from 'react-native-fs'
 //
 import YTabs from './YTabs'
-import DiskInfo from "./DiskInfo"
-import TaskCard from "./TaskCard"
- import Swipeable, { Swip } from './Swipeable';
-import { ButtonPretty } from './ButtonPretty';
-import ProgressBar from './ProgressBar';
-import Svg from 'react-native-svg';
-import SvgMi, { st } from './SvgMi';
-import { YVDL_Task,  } from './ghost-yvdl';
+import { ButtonPretty } from '../Common/ButtonPretty';
+import SvgMi, { st } from '../Common/SvgMi';
+import { YVDL_Task,  } from '../../Services/ghost-yvdl';
 import {LogLevel, RNFFmpeg } from 'react-native-ffmpeg';
 
-import Miexpander from './MiExpander'
-import MiExpander from './MiExpander';
-import CheckBox10Native from './CheckBox10Native';
-import FfmpegOptionsPickerNative from "./FfmpegOptionsPickerNative"
-import MiSwipeable from './MiSwipeable';
-import { Palette } from './theme';
+import { Palette } from '../Common/theme';
 import FfmpegTaskInputPanel, { FfmpegPresetPicker } from './FfmpegNewTask';
-import MiPrettyChip from './MiPrettyChip';
-import MiMenuItem from './MiMenuItem';
-import MiMenuGroupHeader from './MiMenuGroupHeader';
-import { prependOnceListener } from 'process';
-import Output from "./Output"
-import { type } from 'os';
-import {AppSettings, IOutputLocation, IPreferedNameSource, IPreferedQualty} from './rev02types';
-import { verbo } from './GeneralUtils';
+import MiPrettyChip from '../Common/MiPrettyChip';
+import MiMenuItem from '../Common/MiMenuItem';
+import MiMenuGroupHeader from '../Common/MiMenuGroupHeader';
+import Output from "../MainPanel/Output"
+import {AppSettings, IOutputLocation, IPreferedNameSource, IPreferedQualty} from '../../Services/rev02types';
+import { verbo } from '../../Services/GeneralUtils';
 import {  TextStyleProp } from 'react-native/Libraries/StyleSheet/StyleSheet';
 
 
-import { copyFileAssets } from 'react-native-fs';
 import {RNGetIntentMIUtils} from 'react-native-get-intent-mi';
 
 

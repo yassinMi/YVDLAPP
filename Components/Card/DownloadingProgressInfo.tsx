@@ -1,11 +1,11 @@
 
 import React, { createRef, RefObject, Component } from 'react'
 
-import { ButtonPretty } from './ButtonPretty'
 
 import { StyleSheet, Text, View, Platform,StatusBar, TextInput, FlatList, Image, Modal, Switch,AsyncStorage, Alert, AlertButton, StyleProp, ViewStyle, TextStyle, TextStyleAndroid, ImageSourcePropType } from 'react-native';
-import { IDownloadProg } from './ghost-yvdl';
-import { st } from './SvgMi';
+import { IDownloadProg } from '../../Services/ghost-yvdl';
+import { ButtonPretty } from '../Common/ButtonPretty';
+import { st } from '../Common/SvgMi';
 
 
 
@@ -33,7 +33,7 @@ const speed_style = {
     color:'lightseagreen',
     marginLeft: 6 ,
 }
-const percent_style ={
+const percent_style : StyleProp<TextStyle> ={
     minWidth: 50,
     fontWeight:"bold",
    // background-color: red;
@@ -42,10 +42,11 @@ const percent_style ={
     color: "white" ,
 }
 const pretty_preset  = {
-    spanStyle:{fontSize:11,color:"#eee"},
+    spanStyle: {fontSize:11,color:"#eee"} as StyleProp<ViewStyle>,
    
-     iconChild :true,
-    style:{flexDirection:"row-reverse",elevation:2,borderWidth:0.5,borderColor:"#444", marginRight:-2,} ,
+    iconChild :true,
+    style:{flexDirection:"row-reverse",elevation:2,borderWidth:0.5,borderColor:"#444", marginRight:-2,}  as StyleProp<ViewStyle>
+    ,
     Wraper_rest_color:"#242424" ,
     wraper_pressed_color:"#444444"
     

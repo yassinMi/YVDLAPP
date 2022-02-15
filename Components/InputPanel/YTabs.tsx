@@ -6,15 +6,9 @@ import React, { Component, createRef } from 'react';
 import { Animated, StyleSheet, Text, View, Platform,StatusBar, TextInput, FlatList, Image, Modal, Switch,AsyncStorage, Alert, AlertButton, ProgressBarAndroid, ColorPropType, VirtualizedList, Picker, Dimensions, StyleProp, ViewStyle } from 'react-native';
 
 
-import DiskInfo from "./DiskInfo"
-import TaskCard from "./TaskCard"
- import Swipeable, { Swip } from './Swipeable';
-import { ButtonPretty } from './ButtonPretty';
-import ProgressBar from './ProgressBar';
 import { Colors } from 'react-native/Libraries/NewAppScreen';
-import Svg from 'react-native-svg';
-import SvgMi, { st } from './SvgMi';
-import { PRIMARY, Palette } from './theme';
+import SvgMi, { st } from '../Common/SvgMi';
+import { PRIMARY, Palette } from '../Common/theme';
 
 
 
@@ -164,7 +158,7 @@ const defaulSelectedTextColor = Palette.YtabsText
       }
       this.state={
         isSelected : props.ix===props.selected,
-        isEnabled: props.isDisabled
+        isDisabled: props.isDisabled // todo if you noticed some werd disabled behaviour there was a typo here preventing this assigement from takingeffect 
       }
   
       this.selectMe=this.selectMe.bind(this)

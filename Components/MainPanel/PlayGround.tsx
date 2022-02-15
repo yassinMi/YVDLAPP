@@ -10,7 +10,7 @@
 import React, { Component, createRef } from "react"
 import {ARTText,TouchableHighlight,PanResponder, Animated,ScrollView,TouchableOpacity, StyleSheet, Text, View, Platform,StatusBar, TextInput, FlatList, Image, Modal, Switch,AsyncStorage, Alert, AlertButton, ProgressBarAndroid, ColorPropType, VirtualizedList, Picker, Dimensions } from 'react-native';
 import { runInThisContext } from "vm";
-import { verbo } from "./GeneralUtils";
+import { verbo } from "../../Services/GeneralUtils";
 
 
 type PlayGround_props = {}

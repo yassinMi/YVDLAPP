@@ -1,7 +1,7 @@
 import React from 'react'
-import { ButtonPretty } from './ButtonPretty'
+import { ButtonPretty } from '../Common/ButtonPretty'
 import { StyleSheet, Text, View, Platform,StatusBar, TextInput, FlatList, Image, Modal, Switch,AsyncStorage, Alert, AlertButton, StyleProp, ViewStyle, TextStyle } from 'react-native';
-import SvgMi, { st } from './SvgMi';
+import SvgMi, { st } from '../Common/SvgMi';
 
 
 

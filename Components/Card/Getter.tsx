@@ -1,17 +1,15 @@
 
 import  { Component, RefObject, createRef } from 'react'
 import { StyleSheet, Text, View, Platform,StatusBar, TextInput, FlatList, Image, Modal, Switch,AsyncStorage, Alert, AlertButton, StyleProp, ViewStyle, TextStyle, TextStyleAndroid, ImageSourcePropType, ImageStyle, TouchableHighlight, Share, Linking } from 'react-native';
-import SvgMi, { st } from './SvgMi'
 
 import React from 'react'
 import TaskCard from './TaskCard'
-import { ButtonPretty, pretty_props } from './ButtonPretty';
-import Svg, { Path, SvgUri, SvgFromUri, SvgAst, SvgFromXml, SvgCssUri } from 'react-native-svg';
 import RNShare from 'react-native-share';
-import RNPicker from "react-native-document-picker"
 import fn from 'react-native-fs'
 import {RNGetIntentMIUtils} from 'react-native-get-intent-mi';
-import { verbo } from './GeneralUtils';
+import { ButtonPretty, pretty_props } from '../Common/ButtonPretty';
+import { verbo } from '../../Services/GeneralUtils';
+import SvgMi, { st } from '../Common/SvgMi';
 
 
 const DEV_EXPO = false

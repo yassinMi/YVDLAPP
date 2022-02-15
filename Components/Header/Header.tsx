@@ -4,17 +4,11 @@
 import React, { Component, createRef } from 'react';
 import { Animated,TouchableOpacity, StyleSheet, Text, View, Platform,StatusBar, TextInput, FlatList, Image, Modal, Switch,AsyncStorage, Alert, AlertButton, ProgressBarAndroid, ColorPropType, VirtualizedList, Picker, Dimensions, ViewStyle, StyleProp, TextStyle } from 'react-native';
 import Easing from 'react-native/Libraries/Animated/src/Easing';
-//
-import DiskInfo from "./DiskInfo"
-import TaskCard from "./TaskCard"
- import Swipeable, { Swip } from './Swipeable';
-import { ButtonPretty } from './ButtonPretty';
-import ProgressBar from './ProgressBar';
-import { Colors } from 'react-native/Libraries/NewAppScreen';
-import Svg from 'react-native-svg';
-import SvgMi, { st } from './SvgMi';
-import { Palette } from './theme';
-import { verbo } from './GeneralUtils';
+import { verbo } from '../../Services/GeneralUtils';
+import SvgMi, { st } from '../Common/SvgMi';
+import { Palette } from '../Common/theme';
+
+
 
 
 
@@ -127,7 +121,7 @@ pushAnimatedRef(i){
            transform:[{translateY:this.state.opacAnime?.
             interpolate({inputRange:[0,1],outputRange:[0,15],
             easing:Easing.out(Easing.in(Easing. poly(15)))})||0}],
-           algnSelf:"center",
+           /*algnSelf:"center",*/ // todo i commented but didnt fix typo
            
            }]} >
               {true&&<Text style={{color:"#eee",fontSize:16,

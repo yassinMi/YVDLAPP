@@ -8,26 +8,14 @@ import { createStackNavigator } from "react-navigation-stack";
 
  //i
 
- import FfmpegTaskDialog from "./FfmpegNewTask"
-import MainPanel from "./MainPanel"
-import InputPanel from "./InputPanel"
-import Getter from "./Getter"
-import Output from "./Output"
-
-import Header from "./Header"
-
-import DiskInfo from "./DiskInfo"
-
-import TaskCard from "./TaskCard"
-// import swipeable from ""
- import Swipeable, { Swip } from './Swipeable';
-import { ButtonPretty } from './ButtonPretty';
-import SvgMi, { st } from './SvgMi';
-import MiSwipeable from './MiSwipeable';
-import { Palette } from './theme';
-import react from 'react';
-import Pressable from 'react-native/Libraries/Components/Pressable/Pressable';
-import { verbo } from './GeneralUtils';
+import FfmpegTaskDialog from "./InputPanel/FfmpegNewTask"
+import MainPanel from "./MainPanel/MainPanel"
+import Header from "./Header/Header"
+import DiskInfo from "./MainPanel/DiskInfo"
+import Swipeable, { Swip } from './Common/Swipeable';
+import SvgMi, { st } from './Common/SvgMi';
+import { Palette } from './Common/theme';
+import { verbo } from "../Services/GeneralUtils"
 import SplashScreen from 'react-native-splash-screen'
 
 

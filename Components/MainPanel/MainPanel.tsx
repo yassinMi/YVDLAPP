@@ -6,18 +6,15 @@ import React, { Component, createRef, RefObject } from 'react';
 import { ToastAndroid,Linking, Animated, StyleSheet, Text, View, Platform,StatusBar, TextInput, FlatList, Image, Modal, Switch,AsyncStorage, Alert, AlertButton, ProgressBarAndroid, ColorPropType, VirtualizedList, Picker, Dimensions, ViewStyle, StyleProp } from 'react-native';
 
 //
-import InputPanel from "./InputPanel"
-import SettingsPanel from "./SettingsPanel"
-import {  DefaultAppSettings, YVDL_Task } from './ghost-yvdl';
-import { Header } from 'react-native/Libraries/NewAppScreen';
-import { MI_XML_UTILS } from './FBHDUtils';
-import {AppSettings, IOutputLocation, IPreferedNameSource, IPreferedQualty} from './rev02types';
-import { verbo } from './GeneralUtils';
+import {AppSettings, IOutputLocation, IPreferedNameSource, IPreferedQualty} from '../../Services/rev02types';
 import Easing from 'react-native/Libraries/Animated/src/Easing';
 import { PlayGround } from './PlayGround';
-
+import {DefaultAppSettings} from "../../Services/ghost-yvdl"
+import {YVDL_Task} from "../../Services/ghost-yvdl"
 import RNGetIntentMIUtils from "react-native-get-intent-mi"
 import { parse } from 'path';
+import InputPanel from '../InputPanel/InputPanel';
+import SettingsPanel from './SettingsPanel';
 
 
 

@@ -17,22 +17,22 @@ import * as fn from 'react-native-fs'
 
 
 import Getter, { Stage } from './Getter'
-import SvgMi, { st } from './SvgMi';
-import { YVDL_Task,  yvdl_task_status, IDownloadProg, yvdl_task_format, IPostInfo_v02, StateObj } from './ghost-yvdl';
+import SvgMi, { st } from '../Common/SvgMi';
+import { YVDL_Task,  yvdl_task_status, IDownloadProg, yvdl_task_format, IPostInfo_v02, StateObj } from '../../Services/ghost-yvdl';
 
 
-import expad from './MiSwipeable'
-import MiSwipeable from './MiSwipeable';
-import { ButtonPretty } from './ButtonPretty';
+import expad from '../Common/MiSwipeable'
+import MiSwipeable from '../Common/MiSwipeable'
+import { ButtonPretty } from '../Common/ButtonPretty';
 import Pressable from 'react-native/Libraries/Components/Pressable/Pressable';
-import { verbo } from './GeneralUtils';
-import CheckBox10Native from './CheckBox10Native';
+import { verbo } from '../../Services/GeneralUtils';
+import CheckBox10Native from '../Common/CheckBox10Native';
 import { Statistics } from 'react-native-ffmpeg';
 //import  { LogLevel, RNFFmpeg, RNFFmpegConfig, Statistics,CompletedExecution, Execution, } from './rnffmpegAltDec'
 
 import { Types } from 'react-native-document-picker';
 
-import { IPostInfo , AppSettings, IConversionProg} from './rev02types';
+import { IPostInfo , AppSettings, IConversionProg} from '../../Services/rev02types';
 
 
 // depreceted
